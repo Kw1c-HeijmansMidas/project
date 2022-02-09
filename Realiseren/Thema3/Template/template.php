@@ -2,7 +2,7 @@
 /**
  * User: Mike Huijberts
  * Date: 9-2-2021
- * File: T3_REA_Oefening 1.1.php
+ * File: T3_REA_Oefening1.1.php
  */
 ?>
 <!DOCTYPE html>
