@@ -36,7 +36,7 @@ main nav
 	background-color: aquamarine;
 	width: 25%;
 	float: left;
-	height: 50%;
+	height: 60%;
 	box-sizing: border-box;
 	padding: 25px;
 }
@@ -44,7 +44,7 @@ main nav
 main section
 {
 	background-color: dodgerblue;
-	height: 50%;
+	height: 60%;
 	float: right;
 	width: 75%;
 	box-sizing: border-box;
