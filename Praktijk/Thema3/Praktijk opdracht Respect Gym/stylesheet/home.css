@@ -1,23 +1,62 @@
 html,
 
+
+
+@font-face
+{
+    font-family: "DaysOne";
+    src: url(https://fonts.googleapis.com);
+
+}
+
+*
+{
+    font-family: "DaysOne";
+}
+
+a
+{
+    top: 0;
+    color: white;
+    margin: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+nav
+{
+
+    color: white;
+    height: 2vh;
+}
+
+ul
+{
+    top: 0px;
+    color: white;
+    height: 10px;
+}
+
+li
+{
+    top: 0px;
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+li:hover
+{
+    background-color: orange;
+}
+
 body
 {
     background-image: url('../images/img.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-}
-nav
-{
-    width: 50vw;
-
-}
-
-ul
-{
-    float: left;
-}
-
-li{
-    float: left;
+    background-size: 100vw;
 }

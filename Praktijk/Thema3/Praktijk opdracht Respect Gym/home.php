@@ -19,15 +19,12 @@
 </head>
 <body>
 <header>
-    <h1>
         <nav>
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">FAQ</a></li>
             </ul>
-            </ul>
         </nav>
-    </h1>
 </header>
 </body>
 </html>
