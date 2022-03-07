@@ -1,6 +1,5 @@
 html,
-body
-{
+body {
 	margin: 0;
 	padding: 0;
 	height: 100vh;
@@ -38,7 +37,7 @@ main nav
 	background-color: aquamarine;
 	width: 25%;
 	float: left;
-	height: 60%;
+	height: 100%;
 	box-sizing: border-box;
 	padding: 25px;
 }
@@ -46,9 +45,18 @@ main nav
 main section
 {
 	background-color: dodgerblue;
-	height: 60%;
+	height: 100%;
 	float: right;
 	width: 75%;
 	box-sizing: border-box;
 	padding: 25px;
+}
+
+footer
+{
+	background-color: deepskyblue;
+	text-align: center;
+	height: 10%;
+	padding-top: 15px;
+	position: relative;
 }
