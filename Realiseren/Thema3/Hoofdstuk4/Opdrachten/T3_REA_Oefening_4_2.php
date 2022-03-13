@@ -1,5 +1,5 @@
 <?php
-    include "Includes/variabelen.php"
+    include "../Instructies/Includes/variabelen.php"
     ?>
 <!DOCTYPE html>
 <html lang="nl">
@@ -15,14 +15,14 @@
 </head>
 <body>
 <?php
-    include "Includes/header.php"
+    include "../Instructies/Includes/header.php"
 ?>
 <?php
 //Hier gaan we in het volgende hoofdstuk het menu toevoegen.
 ?>
 <main id="wrapper">
     <?php
-        include "Includes/nav.php"
+        include "../Instructies/Includes/nav.php"
     ?>
     <section>
         <h2>
@@ -32,13 +32,13 @@
         <!-- Plaats je code / uitwerking hieronder -->
         <p>
             <?php
-            echo "Op deze plek komt de uitwerking van de oefening te staan";
+            include "Realiseren/Thema3/Hoofdstuk3/Instructies/Includes/functions.php"
             ?>
         </p>
     </section>
 </main>
 <?php
-    include "Includes/footer.php"
+    include "../Instructies/Includes/footer.php"
 ?>
 </body>
 </html>
