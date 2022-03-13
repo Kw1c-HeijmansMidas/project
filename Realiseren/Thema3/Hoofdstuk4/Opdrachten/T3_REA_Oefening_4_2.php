@@ -32,7 +32,9 @@
         <!-- Plaats je code / uitwerking hieronder -->
         <p>
             <?php
-            include "Realiseren/Thema3/Hoofdstuk3/Instructies/Includes/functions.php"
+                require_once "../Instructies/Includes/functions.php";
+                echo CheckTrafficLight($color, $ambulanceComing);
+
             ?>
         </p>
     </section>
