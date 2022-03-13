@@ -34,7 +34,6 @@
             <?php
                 require_once "../Instructies/Includes/functions.php";
                 echo CheckTrafficLight($color, $ambulanceComing);
-
             ?>
         </p>
     </section>
