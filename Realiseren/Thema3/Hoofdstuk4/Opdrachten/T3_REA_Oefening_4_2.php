@@ -1,5 +1,5 @@
 <?php
-    include "../Instructies/Includes/variabelen.php"
+    include "../../.././Includes/variabelen.php"
     ?>
 <!DOCTYPE html>
 <html lang="nl">
@@ -15,14 +15,14 @@
 </head>
 <body>
 <?php
-    include "../Instructies/Includes/header.php"
+    include "../../.././Includes/header.php"
 ?>
 <?php
 //Hier gaan we in het volgende hoofdstuk het menu toevoegen.
 ?>
 <main id="wrapper">
     <?php
-        include "../Instructies/Includes/nav.php"
+        include "../../.././Includes/nav.php"
     ?>
     <section>
         <h2>
@@ -32,14 +32,14 @@
         <!-- Plaats je code / uitwerking hieronder -->
         <p>
             <?php
-                require_once "../Instructies/Includes/functions.php";
-                echo CheckTrafficLight($color, $ambulanceComing);
+                require_once "../../.././Includes/functions.php";
+                echo CheckTrafficLight(false, "groen");
             ?>
         </p>
     </section>
 </main>
 <?php
-    include "../Instructies/Includes/footer.php"
+    include "../../.././Includes/footer.php"
 ?>
 </body>
 </html>

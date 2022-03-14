@@ -18,26 +18,15 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1>
-                <?php
-                    echo "Uitwerkingen van PHP-oefeningen";
-                ?>
-            </h1>
-        </header>
+        <?php
+            include "../../.././Includes/header.php";
+        ?>
         <?php
             //Hier gaan we in het volgende hoofdstuk het menu toevoegen.
         ?>
-        <main id="wrapper">
-            <nav>
-                <h2>Thema 3</h2>
-                <ul><li><h3 class="kop">Hoofdstuk 2</h3></li>
-                    <ul>
-                        <li><a href="/REA_T3T4/Realiseren/Thema3/Hoofdstuk1/Oefening/T3_REA_Oefening1.1.php">Oefening 1.1</a></li>
-                        <li><a href="/REA_T3T4/Realiseren/Thema3/Hoofdstuk1/Oefening/T3_REA_Oefening1.2.php">Oefening 1.2</a></li>
-                    </ul>
-                </ul>
-            </nav>
+        <?php
+            include "../../.././Includes/nav.php";
+        ?>
             <section>
                 <h2>
                     Uitwerking
@@ -58,6 +47,9 @@
                 </p>
             </section>
         </main>
+        <?php
+            include "../../.././Includes/footer.php";
+        ?>
     </body>
 </html>
 

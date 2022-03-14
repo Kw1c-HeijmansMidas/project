@@ -5,18 +5,19 @@ function CheckTrafficLight($color, $ambulanceComing)
 {
 
     if ($ambulanceComing == false) {
-        if ($color = "oranje" && $color = "rood") {
-            echo "U moet stoppen";
+//        Checkt of de ambulance groen is
+        if ($color != "oranje" || $color != "rood"){
+            echo "U mag doorrijden!";
         }
 
         else {
-            echo "U mag doorrijden";
+            echo "U moet stoppen!";
         }
     }
 
     else
     {
-        echo "U moet stoppen";
+        echo "U moet stoppen er komt een ambulance aan!";
     }
 }
 ?>

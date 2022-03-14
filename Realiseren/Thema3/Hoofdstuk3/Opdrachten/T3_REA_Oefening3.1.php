@@ -19,14 +19,14 @@
 </head>
 <body>
 <?php
-    include "../Instructies/Includes/header.php"
+    include "../../.././Includes/header.php"
 ?>
 <?php
 //Hier gaan we in het volgende hoofdstuk het menu toevoegen.
 ?>
 <main id="wrapper">
     <?php
-        include "../Instructies/Includes/nav.php"
+        include "../../.././Includes/nav.php"
     ?>
     <section>
         <h2>
@@ -66,7 +66,7 @@
     </section>
 </main>
 <?php
-    include "../Instructies/Includes/footer.php"
+    include "../../.././Includes/footer.php"
 ?>
 </body>
 </html>
