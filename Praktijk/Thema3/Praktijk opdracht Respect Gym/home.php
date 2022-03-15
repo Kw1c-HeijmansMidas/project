@@ -21,8 +21,8 @@
 <header>
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">FAQ</a></li>
+                <li><a id="MenuHome" href="">Home</a></li>
+                <li><a id="MenuFAQ" href="">FAQ</a></li>
             </ul>
         </nav>
 </header>
