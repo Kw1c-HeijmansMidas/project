@@ -21,3 +21,18 @@ function CheckTrafficLight($color, $ambulanceComing)
     }
 }
 ?>
+
+<?php
+$date = date ("U");
+?>
+
+<?php
+function CalculateInterest();
+
+
+//Statement 1: Beginsituatie, Statement 2: voorwaarde(true), Statement 3: aan het einde van de loop
+for($counter = 0; $counter; $counter = $counter + 1)
+{
+    echo $i . "<br>";
+}
+?>
