@@ -14,8 +14,8 @@
         ?>
     </title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./stylesheet/home.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href="./stylesheet/faq.css" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -26,6 +26,12 @@
         </ul>
     </nav>
 </header>
+<main>
+    <article>
+        d
+    </article>
+
+</main>
 </body>
 </html>
 

@@ -38,9 +38,9 @@ include "../../.././Includes/header.php"
         </p>
         <p>
             <?php
-            echo "Een leuk tweedehands autootje kost 2500 euro. Ik heb 1500 euro gespaard. Ik zet het geld op de bank en krijg daarop een waanzinnige rente van 6% per maand! Ik ga met een while-loop uitrekenen hoeveel maanden ik moet wachten om de 2500 euro te betalen.
-             maanden moet ik nog betalen. <br>";
-            echo "Op maand nr." . " heb ik gespaard";
+                echo "Een leuk tweedehands autootje kost 2500 euro. Ik heb 1500 euro gespaard. Ik zet het geld op de bank en krijg daarop een waanzinnige rente van 6% per maand! Ik ga met een while-loop uitrekenen hoeveel maanden ik moet wachten om de 2500 euro te betalen.
+                maanden moet ik nog betalen. <br>";
+                echo CalculateInterest()
             ?>
         </p>
     </section>

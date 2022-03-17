@@ -49,8 +49,20 @@ li:hover
 
 body
 {
-    background-image: url('../images/img.png');
+    background-image: url('../images/navbalk.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100vw;
+    background-color: black;
+    overflow: hidden;
+}
+
+article
+{
+    background-color: orange;
+    left: 350px;
+    width: 50vw;
+    height: 100vh;
+    top: 17%;
+    position: fixed;
 }
