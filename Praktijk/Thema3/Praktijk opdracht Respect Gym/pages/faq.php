@@ -16,13 +16,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link href="./stylesheet/faq.css" rel="stylesheet">
-    <script src="script/javascript.js" defer></script>
+    <script src="../script/javascript.js" defer></script>
 </head>
 <body>
 <header>
     <nav>
         <ul>
-            <li><a id="MenuHome" href="home.php">Home</a></li>
+            <li><a id="MenuHome" href="../home.php">Home</a></li>
             <li><a id="MenuFAQ" href="faq.php">FAQ</a></li>
         </ul>
     </nav>
@@ -36,7 +36,7 @@
 
         <button class="accordion">Hoeveel kost een lidmaatschap?</button>
         <div class="panel">
-            <p>Hoeveel kost een lidmaatschap?</p>
+            <p>Voor het overzicht met de kosten kun je klikken op "Lid worden" en dan "Abonnement".</p>
         </div>
 
         <button class="accordion">Wat zijn de openingstijden?</button>
