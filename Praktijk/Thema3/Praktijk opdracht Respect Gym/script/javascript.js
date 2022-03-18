@@ -1,6 +1,14 @@
-document.getElementById('demo').onclick = function changeContent() {
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-    document.getElementById('demo').textContent = "Help me";
-    document.getElementById('demo').style = "Color: red";
-
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    });
 }

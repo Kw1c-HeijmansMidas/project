@@ -16,6 +16,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link href="./stylesheet/faq.css" rel="stylesheet">
+    <script src="script/javascript.js" defer></script>
 </head>
 <body>
 <header>
@@ -28,9 +29,21 @@
 </header>
 <main>
     <article>
-        d
-    </article>
+        <button class="accordion">Is het een binnen of een buiten sportschool?</button>
+        <div class="panel">
+            <p> Is het een binnen of een buiten sportschool?</p>
+        </div>
 
+        <button class="accordion">Hoeveel kost een lidmaatschap?</button>
+        <div class="panel">
+            <p>Hoeveel kost een lidmaatschap?</p>
+        </div>
+
+        <button class="accordion">Wat zijn de openingstijden?</button>
+        <div class="panel">
+            <p>Wat zijn de openingstijden?</p>
+        </div>
+    </article>
 </main>
 </body>
 </html>
