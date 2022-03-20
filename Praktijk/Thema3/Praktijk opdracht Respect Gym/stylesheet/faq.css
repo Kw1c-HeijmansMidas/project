@@ -49,7 +49,7 @@ li:hover
 
 body
 {
-    background-image: url('../../images/navbalk.png ');
+    background-image: url('../images/navbalk.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100vw;
@@ -69,8 +69,8 @@ article
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color: ;
-    color: #444;
+    background-color: black;
+    color: white;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -80,28 +80,27 @@ article
     transition: 0.4s;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/*  */
 .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: black;
 }
 
-/* Style the accordion panel. Note: hidden by default */
+/* Stylen van het paneel van de accordion*/
 .panel {
     padding: 0 18px;
-    background-color: g;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
-
+/* Code voor het + teken*/
 .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
-    color: #777;
+    color: white;
     float: right;
     margin-left: 5px;
 }
-
+/* Code voor het - teken*/
 .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2796";
 }

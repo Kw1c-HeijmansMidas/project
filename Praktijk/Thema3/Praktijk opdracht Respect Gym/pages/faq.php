@@ -15,7 +15,7 @@
     </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link href="./stylesheet/faq.css" rel="stylesheet">
+    <link href="../stylesheet/faq.css" rel="stylesheet">
     <script src="../script/javascript.js" defer></script>
 </head>
 <body>
@@ -31,7 +31,7 @@
     <article>
         <button class="accordion">Is het een binnen of een buiten sportschool?</button>
         <div class="panel">
-            <p> Is het een binnen of een buiten sportschool?</p>
+            <p> Er zijn zowel binnen als buiten activiteiten.</p>
         </div>
 
         <button class="accordion">Hoeveel kost een lidmaatschap?</button>
@@ -41,7 +41,12 @@
 
         <button class="accordion">Wat zijn de openingstijden?</button>
         <div class="panel">
-            <p>Wat zijn de openingstijden?</p>
+            <p> Maandag 08.00 – 13:00 uur 17:00 – 21.00 uur Dinsdag 08.00 – 13:00 uur 17:00 – 21.00 uur Woensdag 08.00 – 13:00 uur 17:00 – 21.00 uur Donderdag 08.00 – 13:00 uur 17:00 – 21.00 uur Vrijdag 08.00 – 13:00 uur 17:00 – 21.00 uur Zaterdag 08.30 – 14.00 uur Zondag 09.00</p>
+        </div>
+
+        <button class="accordion">Wat voor lessen zijn er?</button>
+        <div class="panel">
+            <p> Er is kickboksen voor de jeugd en voor volwassenen, Boksen, Boksen voor kinderen, Fun boksen, Ladies boksen, Ladies only kickboksen, Tai Chi, Hiitbox, MMA, Pencak Silat. </p>
         </div>
     </article>
 </main>
