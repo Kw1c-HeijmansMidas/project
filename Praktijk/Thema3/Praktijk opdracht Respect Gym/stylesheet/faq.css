@@ -56,7 +56,7 @@ body
     background-color: gray;
     overflow: hidden;
 }
-
+/* Maakt de opmaak op van de article*/
 article
 {
     background-color: chocolate;
@@ -67,7 +67,7 @@ article
     position: fixed;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
+ /* Style buttons van de accordion */
 .accordion {
     background-color: black;
     color: white;
