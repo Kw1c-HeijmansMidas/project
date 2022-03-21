@@ -43,6 +43,13 @@ include "../../.././Includes/header.php"
 
             ?>
         </p>
+        <p>
+            <?php
+
+                createPiramid(20);
+
+            ?>
+        </p>
     </section>
 </main>
 <?php
