@@ -22,7 +22,7 @@
 <header>
     <nav>
         <ul>
-            <li><a id="MenuHome" href="../home.php">Home</a></li>
+            <li><a id="MenuHome" href=".././home.php">Home</a></li>
             <li><a id="MenuFAQ" href="faq.php">FAQ</a></li>
         </ul>
     </nav>
