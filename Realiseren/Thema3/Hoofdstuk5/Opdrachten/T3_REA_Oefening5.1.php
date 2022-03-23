@@ -11,7 +11,7 @@ include "../../.././Includes/variabelen.php"
     </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../Instructie/Styles/style.css" rel="stylesheet">
+    <link href="../../Template/styles/style.css" rel="stylesheet">
 </head>
 <body>
 <?php
@@ -36,14 +36,23 @@ include "../../.././Includes/header.php"
             <label for="studentNumber">Studentennummer:</label>
             <input type="text" name="studentNumber" id="studentNumber"><br>
             <label for="date">Datum van uitschrijving:</label>
-            <input type="text" name="date" id="date "><br>
-            <p>Leerjaar <br>
-                <label><input type="radio" name="jaar" value="leerjaar 1">1e leerjaar</label>
-                <label><input type="radio" name="jaar" value="leerjaar 2">2e leerjaar</label>
-                <label><input type="radio" name="jaar" value="leerjaar 3">3e leerjaar</label>
+            <input type="datetime-local" name="date" id="date "><br>
+                <label for="wrong">Reden van uitschrijving:</label>
+                <select name="wrong" id="wrong">
+                    <option>verkeerde keuze</option><br>
+                </select>
+
+            <p>Leerjaar<br>
+                <label><input type="radio" name="jaar" value="leerjaar 1">1e leerjaar</label><br>
+                <label><input type="radio" name="jaar" value="leerjaar 2">2e leerjaar</label><br>
+                <label><input type="radio" name="jaar" value="leerjaar 3">3e leerjaar</label><br>
             </p>
-            <label><input type="radio" name="jaar" value="leerjaar 2">Ik wil me aanmelden bij de succesklas</label>
-            <label><input type="radio" name="jaar" value="leerjaar 3">Verwijder mijn gegevens uit het systeem</label>
+            <label><input type="checkbox" name="box" value="aanmelden">Ik wil me aanmelden bij de succesklas</label><br>
+            <label><input type="checkbox" name="box" value="verwijderen">Verwijder mijn gegevens uit het systeem</label><br>
+
+            <label for="reason">Geef hieronder de reden van je uitschrijving op</label><br>
+            <textarea name="reason" id="reason" rows="9" cols="45"></textarea><br>
+
             <input type="submit">
         </form>
     </section>

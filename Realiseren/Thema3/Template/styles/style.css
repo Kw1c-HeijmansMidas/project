@@ -32,6 +32,7 @@ main
 {
 	list-style-type: circle ;
 }
+
 main nav
 {
 	background-color: aquamarine;
@@ -59,4 +60,9 @@ footer
 	height: 10%;
 	padding-top: 15px;
 	position: relative;
+}
+
+label
+{
+	min-width: 150px;
 }
