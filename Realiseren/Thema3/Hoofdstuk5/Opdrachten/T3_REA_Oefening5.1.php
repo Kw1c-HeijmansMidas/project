@@ -40,6 +40,9 @@ include "../../.././Includes/header.php"
                 <label for="wrong">Reden van uitschrijving:</label>
                 <select name="wrong" id="wrong">
                     <option>verkeerde keuze</option><br>
+                    <option>niet leuk</option><br>
+                    <option>te lastig</option><br>
+                    <option>te makkelijk</option><br>
                 </select>
 
             <p>Leerjaar<br>

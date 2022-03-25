@@ -31,10 +31,10 @@
 
         <!-- Plaats je code / uitwerking hieronder -->
         <p>
-            <?php
-                require_once "../../.././Includes/functions.php";
-                echo CheckTrafficLight(false, "groen");
-            ?>
+<!--            --><?php
+//                require_once "../../.././Includes/functions.php";
+//                echo CheckTrafficLight(false, "groen");
+//            ?>
         </p>
     </section>
 </main>
