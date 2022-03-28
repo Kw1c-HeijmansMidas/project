@@ -30,7 +30,7 @@ include "../../.././Includes/header.php"
         </h2>
 
         <!-- Plaats je code / uitwerking hieronder -->
-        <form method="get" action="T3_REA_Oefening5.2_result.php">
+        <form method="post" action="T3_REA_Oefening5.2_result.php">
             <table>
                 <tr>
                     <td colspan="2">
@@ -43,29 +43,30 @@ include "../../.././Includes/header.php"
                 </tr>
                 <tr>
                     <td>
-                        Username
+                        <label for="username">Username</label>
                     </td>
                     <td>
-                        <input type="text" name="username" id="username">
+                        <input type="text" name="username" id="username" required>
                     </td>
                 </tr>
 
                 <tr>
                     <td>
-                        Password
+                        <label for="password">Password</label>
                     </td>
                     <td>
-                        <input type="text" name="password" id="password>
+                        <input type="password" name="password" id="password" required><br>
                     </td>
                 </tr>
 
                 <tr>
-                    <td colspan="">
+                    <td>
                         <input type="submit" value="Verzenden">
                     </td>
                 </tr>
             </table>
         </form>
+
 
     </section>
 </main>

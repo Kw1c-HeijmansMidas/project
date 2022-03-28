@@ -19,6 +19,7 @@
     <h3>Hoofdstuk 5</h3>
     <ul>
         <li><a href="../../Realiseren/Thema3/Hoofdstuk5/Opdrachten/T3_REA_Oefening5.1.php">Oefening 5.1</a></li>
+        <li><a href="../../Realiseren/Thema3/Hoofdstuk5/Opdrachten/T3_REA_Oefening5.2.php">Oefening 5.2</a></li>
     </ul>
 
 </nav>
