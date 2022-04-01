@@ -1,10 +1,11 @@
 <?php
-
     // Is er een POST value "txtUsername" opgegeven?
     if( isset($_POST["txtUsername"]) == true)
     {
         //  opdracht 1: Programmeer hieronder (via cookieset) een cookie met de volgende eisen:
         //   Expiration date: over 356 dagen (1 jaar)
+        $expired = time() + 3600 * 24 * 365;
+        setcookie("txtUsername", $_POST["txtUsername"], $expired, "/");
         //   Naam: userUsernameCookie
         //   Value: $_POST["txtUsername"]
 		//   Path:  "/"
@@ -15,14 +16,17 @@
     }
 
     // Is er een POST value "selCountry" opgegeven?
+
     if( isset($_POST["selCountry"]) == true)
     {
         //  Opdracht 2: Programmeer hieronder (via cookieset) een cookie met de volgende eisen:
         //   Expiration date: over 356 dagen (1 jaar)
-        $expired = time() + 3600 * 24;
+        $expired = time() + 3600 * 24 * 365;
+        setcookie("userCountryCode", $_POST["selCountry"], $expired, "/");
         //   Naam: userCountryCode
         //   Value: $_POST["selCountry"]
 		//   Path: "/"
+
     }
     else
     {
@@ -31,5 +35,6 @@
 
     // Stuur een gebruiker door naar de index pagina!
     // header("Location: /T3_REA_Oefeningen/index.php");
+
 
 ?>
