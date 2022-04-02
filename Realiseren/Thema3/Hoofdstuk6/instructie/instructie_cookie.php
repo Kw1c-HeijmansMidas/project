@@ -29,5 +29,8 @@ echo $count;
 setcookie("userCount", $count, $expired, "/");
 
 ?>
+<?php
+include "../Opdrachten/includes/footer.php"
+?>
 <a href="instructie_cookie.php">Click</a>
 <a href="instructie_cookie.php?action=reset">Reset</a>

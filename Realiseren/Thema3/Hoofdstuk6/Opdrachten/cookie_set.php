@@ -37,4 +37,7 @@
     // header("Location: /T3_REA_Oefeningen/index.php");
 
 
+include "./includes/footer.php"
+
 ?>
+<link href="../Styles/style.css" rel="stylesheet">

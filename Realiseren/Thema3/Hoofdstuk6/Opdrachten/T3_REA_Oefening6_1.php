@@ -30,6 +30,7 @@ include "../../../././Includes/header.php"
         </h2>
 
         <!-- Plaats je code / uitwerking hieronder -->
+
         <form action="cookie_set.php" method="post">
             <p>
                 Username:
@@ -276,7 +277,7 @@ include "../../../././Includes/header.php"
 
 </main>
 <?php
-include "./includes/footer.php"
+include "../Opdrachten/includes/footer.php"
 ?>
 </body>
 </html>
