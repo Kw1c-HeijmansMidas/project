@@ -16,13 +16,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link href="stylesheet/home.css" rel="stylesheet">
+    <link href="stylesheet/menu.css" rel="stylesheet">
 </head>
 <body>
 <header>
         <nav>
             <ul>
                 <li><a id="MenuHome" href="home.php">Home</a></li>
-                <li><a id="MenuFAQ" href="./pages/faq.phpw">FAQ</a></li>
+                <li><a id="MenuFAQ" href="pages/faq.php">FAQ</a></li>
             </ul>
         </nav>
 </header>

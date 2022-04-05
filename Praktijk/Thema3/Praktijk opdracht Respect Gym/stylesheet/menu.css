@@ -1,0 +1,37 @@
+#MenuHome
+{
+    position: absolute;
+    left: 326px;
+    top: 17px;
+}
+
+#MenuFAQ
+{
+    position: absolute;
+    right: 292px;
+    top: 17px;
+}
+
+li
+{
+    top: 0px;
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+li:hover
+{
+    background-color: orange;
+}
+a
+{
+    top: 0;
+    color: white;
+    margin: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "DaysOne";
+}
