@@ -11,7 +11,7 @@ include "../../../.././Includes/variabelen.php"
     </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../../Styles/style.css"
+    <link href="../../Styles/style.css" rel="stylesheet">
 </head>
 <body>
 <?php
@@ -35,18 +35,16 @@ include "../../../.././Includes/header.php"
             <p>
                 Username:
             </p>
-            <label for="username">Username</label>
-            <input type="text" name="username" id="username" required>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" required><br>
 
-
-
-            <label for="password">Password</label>
+            <label for="password">Password:</label>
             <input type="password" name="password" id="password" required><br>
 
 
             <br>
             <br>
-            <input type="submit" value="Versturen">
+            <input type="submit" value="Inloggen">
 
         </form>
 

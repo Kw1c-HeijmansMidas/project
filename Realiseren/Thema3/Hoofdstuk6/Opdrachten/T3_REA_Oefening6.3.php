@@ -31,7 +31,7 @@ include "../../../././Includes/header.php"
 
         <!-- Plaats je code / uitwerking hieronder -->
 
-            <form id="gameFrm" method="get" action="opdracht62.php">
+            <form id="gameFrm" method="get" action="T3_REA_Oefening6.3.php">
                 <div class="float"><input type="radio"
                                           onchange="document.getElementById('gameFrm').submit();" name="keuze"
                                           value="steen"><img src="images/steen.png" width="50px" height="50px"></div>
@@ -45,7 +45,7 @@ include "../../../././Includes/header.php"
             <?php
             if (isset($_GET['keuze']))
             {
-            echo "Jij koos: <img src='../images/{$_GET['keuze']}.png'>";
+            echo "Jij koos: <img src='images/{$_GET['keuze']}.png' width='50px' height='50px'>";
             //keuze computer?
             }
             //Wat kiest de computer
@@ -53,7 +53,13 @@ include "../../../././Includes/header.php"
              $opties = array("steen","papier","schaar");
              $computerkeuzegetal = rand(0,2);
              $computerkeuze = $opties[$computerkeuzegetal];
-            echo "&nbsp;&nbsp;De computer koos: <img src='../images/{$computerkeuze}.jfif'>";
+            echo "&nbsp;&nbsp;De computer koos: <img src='images/{$computerkeuze}.png' width='50px' height='50px'>";
+            ?>
+            <?php
+            $count1 = 0;
+            $count2 = 0;
+
+            if ($_GET['keuze'] == "papier" && $computerkeuze == "steen" || gebruiker steen && computer schaar || gebruiker schaar && computer papier)
 
             ?>
             <br>
