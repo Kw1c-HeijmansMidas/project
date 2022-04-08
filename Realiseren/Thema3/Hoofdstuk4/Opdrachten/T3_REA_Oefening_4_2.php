@@ -42,5 +42,5 @@
     include "../../.././Includes/footer.php"
 ?>
 </body>
-</html>q
+</html>
 

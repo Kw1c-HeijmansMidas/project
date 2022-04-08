@@ -12,7 +12,7 @@ if (isset($_SESSION['user1']) == false || ($_SESSION['user2']) == false ) {
 <head>
     <title>
         <?php
-        echo 'Realiseren instructies thema 3 en 4.';
+        echo 'Realiseren instructies thema 3 en 4. thimo was hier';
         ?>
     </title>
     <meta charset="UTF-8">
