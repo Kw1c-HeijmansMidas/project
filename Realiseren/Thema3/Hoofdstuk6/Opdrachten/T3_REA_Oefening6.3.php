@@ -70,6 +70,7 @@ include "../../../././Includes/header.php"
             } elseif ($_GET["keuze"] == "steen" && $computerkeuze == "papier" || $_GET["keuze"] == "schaar" && $computerkeuze == "steen" || $_GET["keuze"] == "papier" && $computerkeuze == "schaar") {
                 $_SESSION['user2'] += 1;
             }
+            //De stand
             echo "<br>" . "Jou score is " . $_SESSION['user1'] . " de computers score is " . $_SESSION['user2'];
             if ($_SESSION['user1'] == 5)
             {

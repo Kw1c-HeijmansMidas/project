@@ -1,0 +1,14 @@
+nav
+{
+    background-color: #0085CA;
+
+    position: absolute;
+}
+
+a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+
+}
