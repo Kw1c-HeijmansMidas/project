@@ -27,7 +27,7 @@
 //Hier gaan we in het volgende hoofdstuk het menu toevoegen.
 ?>
 <main id="wrapper">
-
+<img src="../images/achtergrond.png">
 
 </main>
 <?php
