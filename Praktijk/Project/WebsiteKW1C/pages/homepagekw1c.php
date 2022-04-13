@@ -1,5 +1,4 @@
 <?php
-echo "test";
     ?>
 <!DOCTYPE html>
 </title>
