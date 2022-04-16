@@ -173,6 +173,7 @@
 
             <input type="submit" value="inleveren">
         </form>
+        <br>
     </main>
 <!--start footer-->
     <footer>
