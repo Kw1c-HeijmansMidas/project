@@ -15,7 +15,7 @@ nav
     max-width: 100%; /* Groote tekst*!*/
     max-height: 10%; /* Groote tekst*!*/
     background-color: #0085CA; /* tekst kleur */
-    /*width: 825px; !* Groote tekst*!*/
+    /*width: 825px;   !*Groote tekst*!*/
 }
 nav li:hover
 {
@@ -42,3 +42,4 @@ nav ul li a
     display:block; /* groote link block */
     color:white; /* kleur tekst */
 }
+

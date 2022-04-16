@@ -42,67 +42,127 @@
                 <label for="name">Naam: </label>
                 <input type="text" name="name" id="name" required>
             </p>
-            <p>
-                Leerjaar:
-            </p>
 
             <p>
                 <label for="leeftijd">Leeftijd: </label>
                 <input type="number" name="leeftijd" id="leeftijd" required>
             </p>
 
+            <p>
+                Leerjaar:
+            </p>
+
             <div>
-                <label><input type="checkbox" name="leerjaar" value="Leerjaar 1" required>Leerjaar 1</label><br>
-                <label><input type="checkbox" name="leerjaar" value="Leerjaar 2" required>Leerjaar 2</label><br>
-                <label><input type="checkbox" name="leerjaar" value="Leerjaar 3" required>Leerjaar 3</label><br>
-                <label><input type="checkbox" name="leerjaar" value="Leerjaar 4" required>Leerjaar 4</label><br>
-                <label><input type="checkbox" name="leerjaar" value="Leerjaar 5" required>Leerjaar 5</label><br>
+                <label><input type="checkbox" name="leerjaar" value="Leerjaar 1">Leerjaar 1</label><br>
+                <label><input type="checkbox" name="leerjaar" value="Leerjaar 2">Leerjaar 2</label><br>
+                <label><input type="checkbox" name="leerjaar" value="Leerjaar 3">Leerjaar 3</label><br>
+                <label><input type="checkbox" name="leerjaar" value="Leerjaar 4">Leerjaar 4</label><br>
+                <label><input type="checkbox" name="leerjaar" value="Leerjaar 5">Leerjaar 5</label><br>
             </div>
+
+            <p>
+                heb je ervaring?
+            </p><br>
 
             <div>
                 <label><input type="radio" name="ervaring" value="ja" required>ja</label><br>
                 <label><input type="radio" name="ervaring" value="nee" required>nee</label><br>
             </div>
+
+            <p>
+                vind je het leuk om met computers om te gaan?
+            </p><br>
+
             <div>
                 <label><input type="radio" name="leuk" value="ja" required>ja</label><br>
                 <label><input type="radio" name="leuk" value="nee" required>nee</label><br>
-            </div>
+            </div><br>
+
+            <p>
+                ben je bereid meerdere uren achter de pc te zitten?
+            </p><br>
+
             <div>
                 <label><input type="radio" name="uren" value="ja" required>ja</label><br>
                 <label><input type="radio" name="uren" value="nee" required>nee</label><br>
-            </div>
+            </div><br>
+
+            <p>
+                kunt u goed in teams werken?
+            </p><br>
+
             <div>
                 <label><input type="radio" name="teams" value="ja" required>ja</label><br>
                 <label><input type="radio" name="teams" value="nee" required>nee</label><br>
-            </div>
+            </div><br>
+
+            <p>
+                ben je goed stress bestendig?
+            </p><br>
+
             <div>
                 <label><input type="radio" name="stress" value="ja" required>ja</label><br>
                 <label><input type="radio" name="stress" value="nee" required>nee</label><br>
-            </div>
+            </div><br>
+
+            <p>
+                bent u creatief?
+            </p><br>
+
             <div>
                 <label><input type="radio" name="creatief" value="ja" required>ja</label><br>
                 <label><input type="radio" name="creatief" value="nee" required>nee</label><br>
-            </div>
+            </div><br>
+
+            <p>
+                kunt u goed out off the box denken?
+            </p><br>
+
             <div>
                 <label><input type="radio" name="box" value="ja" required>ja</label><br>
                 <label><input type="radio" name="box" value="nee" required>nee</label><br>
-            </div>
+            </div><br>
+
+            <p>
+                kan je je houden aan een deadline?
+            </p><br>
+
             <div>
                 <label><input type="radio" name="deadline" value="ja" required>ja</label><br>
                 <label><input type="radio" name="deadline" value="nee" required>nee</label><br>
-            </div>
+            </div><br>
+
+            <p>
+                kan je werkend leren?
+            </p><br>
+
             <div>
                 <label><input type="radio" name="leren" value="ja" required>ja</label><br>
                 <label><input type="radio" name="leren" value="nee" required>nee</label><br>
-            </div>
+            </div><br>
+
+            <p>
+                heb je goeie motivatie?
+            </p><br>
+
             <div>
                 <label><input type="radio" name="concentratie" value="ja" required>ja</label><br>
                 <label><input type="radio" name="concentratie" value="nee" required>nee</label><br>
-            </div>
+            </div><br>
+
+            <p>
+                ben je efficient werken?
+            </p><br>
+
             <div>
                 <label><input type="radio" name="efficient" value="ja" required>ja</label><br>
                 <label><input type="radio" name="efficient" value="nee" required>nee</label><br>
-            </div>
+            </div><br>
+
+            <p>
+                kan je compact werken?
+            </p><br>
+
             <div>
                 <label><input type="radio" name="compact" value="ja" required>ja</label><br>
                 <label><input type="radio" name="compact" value="nee" required>nee</label><br>
