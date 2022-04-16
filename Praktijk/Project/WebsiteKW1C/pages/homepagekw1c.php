@@ -6,7 +6,7 @@
 </title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=no">
-<link href="../styles/menu2.css" rel="stylesheet">
+<link href="../styles/menu.css" rel="stylesheet">
 <link href="../styles/homekw1c.css" rel="stylesheet">
 
 <html lang="nl">

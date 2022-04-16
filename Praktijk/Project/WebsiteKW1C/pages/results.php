@@ -17,7 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../styles/homekw1c.css" rel="stylesheet">
     <link href="../styles/forms.css" rel="stylesheet">
-    <link href="../styles/menu2.css" rel="stylesheet">
+    <link href="../styles/menu.css" rel="stylesheet">
 </head>
 <body>
 <!--include voor nav-->
