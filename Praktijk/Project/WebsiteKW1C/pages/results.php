@@ -86,7 +86,7 @@
         }
         else
         {
-            echo "er is iets fout gegaan...";
+            echo "er is iets fout gegaan";
         }
 
     ?>
