@@ -4,12 +4,36 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "Cooper-Hewitt",Arial,Verdana,"MS Sans Serif",Tahoma;
+}
 body{
     background-color: #66b6df;
     color: white;
+    min-height: 100%;
 }
 
 p{
     background-color:#0085ca;
     width: 10vw;
+}
+
+#background
+{
+    width: 100vw;
+    height: 600px;
+}
+
+#lijn
+{
+    background-repeat: repeat-x;
+
+    height: 5%;
+}
+
+#kop
+{
+    position: relative;
+    left: 40%;
+
 }

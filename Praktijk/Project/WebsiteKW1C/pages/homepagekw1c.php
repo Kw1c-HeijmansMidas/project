@@ -9,28 +9,23 @@
 
 <html lang="nl">
 <header>
-   <nav>
-       <ul>
-           <li></li>
-       </ul>
+
+    <?php
+    include "../includes/header.php"
+    ?>
 
 
-
-   </nav>
 </header>
 <body>
-<?php
-    include "../includes/header.php"
-?>
+
 <?php
 //Hier gaan we in het volgende hoofdstuk het menu toevoegen.
 ?>
 <main id="wrapper">
-<img src="../images/achtergrond.png">
+<img src="../images/achtergrond.png" id="background">
 
 </main>
-<?php
-
-?>
+<h1 id="kop">ICT-ACADEMIE</h1>
+<img src="../images/lijn.png" id="lijn">
 </body>
 </html>
