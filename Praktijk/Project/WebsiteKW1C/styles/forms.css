@@ -95,3 +95,33 @@ footer
     background-color: #0085CA;
 }
 
+@media  screen and (max-width: 700px)
+{
+
+    /* aanpassing navigatie /
+    nav, ul, header
+    {
+        top: 0%; / geen witruimte van de top af /
+        height: 100%; / verandering hoogte /
+    }
+
+    / 1ste li specificeren /
+    li{
+        width: 100vw; / verandering width /
+        height: 25%; / verandering height /
+    }
+
+    / 2de li specificeren /
+    li + li{
+        background-color: rgb(0, 0, 0); / verandering background color /
+    }
+
+    / 3de li specificeren /
+    li + li + li{
+        background-color: rgb(0, 0, 0); / verandering background color /
+    }
+
+    / 4de li specificeren /
+    li + li + li + li{
+        background-color: rgb(0, 0, 0); / verandering background color */
+}
