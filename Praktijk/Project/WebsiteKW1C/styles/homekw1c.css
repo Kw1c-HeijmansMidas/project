@@ -11,6 +11,7 @@ body{
     background-color: #66b6df;
     color: white;
     min-height: 100%;
+    font-family: Arial,Verdana, Tahoma;
 }
 
 p{
@@ -26,14 +27,22 @@ p{
 
 #lijn
 {
-    background-repeat: repeat-x;
+    min-width: 100vw;
 
-    height: 5%;
 }
 
-#kop
+#titel
 {
     position: relative;
     left: 40%;
+    margin: 1rem;
 
+}
+
+h3
+{
+    background-color: #0085ca;
+    line-height: 1;
+    margin: 0.05em 0 0.25em;
+    word-wrap: break-word;
 }
