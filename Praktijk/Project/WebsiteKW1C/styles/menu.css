@@ -3,20 +3,19 @@ nav li
     float: left;
     display: inline;
     margin-right: 5px; /* vergroot/verkleint de margin van het menu */
-    padding: 1%;  /*vergroot/verkleint de wit ruimte tussen menu en rand van de pagina*/
+    padding: 1%; /* vergroot/verkleint de wit ruimte tussen menu en rand van de pagina */
 }
-
 nav
 {
     display: block;
     align-items: center;
     justify-content: center;
     position: fixed;
-    min-width: 100%; /* Groote tekst*/
-    max-width: 100%; /* Groote tekst*/
-    max-height: 10%; /* Groote tekst*/
+    min-width: 100%; /* Groote tekst*!*/
+    max-width: 100%; /* Groote tekst*!*/
+    max-height: 10%; /* Groote tekst*!*/
     background-color: #0085CA; /* tekst kleur */
-    /*width: 825px;   /*Groote tekst*/
+    /*width: 825px;   !*Groote tekst*!*/
 }
 nav li:hover
 {
@@ -33,7 +32,7 @@ nav ul li
     text-align:center; /* plaatsing tekst */
     left: 100px;
     list-style: none; /* verwijdering bullets */
-    /float: left; /* rechts laten hangen boven alles */
+    /*float: left; !* rechts laten hangen boven alles *!*/
 }
 
 /* url links */
@@ -44,8 +43,7 @@ nav ul li a
     color:white; /* kleur tekst */
 }
 
-a>#logo
+#logo
 {
     height: 5vh;
-
 }
