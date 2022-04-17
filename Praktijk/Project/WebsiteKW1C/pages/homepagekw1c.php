@@ -1,6 +1,8 @@
 <?php
     ?>
 <!DOCTYPE html>
+<title>
+    homepage
 </title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=no">
@@ -17,11 +19,6 @@
 
 
     </header>
-
-
-    <?php
-    //Hier gaan we in het volgende hoofdstuk het menu toevoegen.
-    ?>
     <main>
         <img src="../images/achtergrond.png" id="background">
 
@@ -87,8 +84,6 @@
 
         </div>
     </footer>
-
-
 
 </body>
 </html>
