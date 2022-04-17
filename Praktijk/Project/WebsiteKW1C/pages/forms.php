@@ -15,7 +15,6 @@
     </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../styles/homekw1c.css" rel="stylesheet">
     <link href="../styles/forms.css" rel="stylesheet">
     <link href="../styles/menu2.css" rel="stylesheet">
 </head>
@@ -53,9 +52,60 @@
             </p>
 
             <div>
-                <label><input type="radio" name="leerjaar" value="Leerjaar 1" required>Leerjaar 1</label><br>
-                <label><input type="radio" name="leerjaar" value="Leerjaar 2" required>Leerjaar 2</label><br>
-                <label><input type="radio" name="leerjaar" value="Leerjaar 3" required>Leerjaar 3</label>
+                <label><input type="checkbox" name="leerjaar" value="Leerjaar 1" required>Leerjaar 1</label><br>
+                <label><input type="checkbox" name="leerjaar" value="Leerjaar 2" required>Leerjaar 2</label><br>
+                <label><input type="checkbox" name="leerjaar" value="Leerjaar 3" required>Leerjaar 3</label><br>
+                <label><input type="checkbox" name="leerjaar" value="Leerjaar 4" required>Leerjaar 4</label><br>
+                <label><input type="checkbox" name="leerjaar" value="Leerjaar 5" required>Leerjaar 5</label><br>
+            </div>
+
+            <div>
+                <label><input type="radio" name="ervaring" value="ja" required>ja</label><br>
+                <label><input type="radio" name="ervaring" value="nee" required>nee</label><br>
+            </div>
+            <div>
+                <label><input type="radio" name="leuk" value="ja" required>ja</label><br>
+                <label><input type="radio" name="leuk" value="nee" required>nee</label><br>
+            </div>
+            <div>
+                <label><input type="radio" name="uren" value="ja" required>ja</label><br>
+                <label><input type="radio" name="uren" value="nee" required>nee</label><br>
+            </div>
+            <div>
+                <label><input type="radio" name="teams" value="ja" required>ja</label><br>
+                <label><input type="radio" name="teams" value="nee" required>nee</label><br>
+            </div>
+            <div>
+                <label><input type="radio" name="stress" value="ja" required>ja</label><br>
+                <label><input type="radio" name="stress" value="nee" required>nee</label><br>
+            </div>
+            <div>
+                <label><input type="radio" name="creatief" value="ja" required>ja</label><br>
+                <label><input type="radio" name="creatief" value="nee" required>nee</label><br>
+            </div>
+            <div>
+                <label><input type="radio" name="box" value="ja" required>ja</label><br>
+                <label><input type="radio" name="box" value="nee" required>nee</label><br>
+            </div>
+            <div>
+                <label><input type="radio" name="deadline" value="ja" required>ja</label><br>
+                <label><input type="radio" name="deadline" value="nee" required>nee</label><br>
+            </div>
+            <div>
+                <label><input type="radio" name="leren" value="ja" required>ja</label><br>
+                <label><input type="radio" name="leren" value="nee" required>nee</label><br>
+            </div>
+            <div>
+                <label><input type="radio" name="concentratie" value="ja" required>ja</label><br>
+                <label><input type="radio" name="concentratie" value="nee" required>nee</label><br>
+            </div>
+            <div>
+                <label><input type="radio" name="efficient" value="ja" required>ja</label><br>
+                <label><input type="radio" name="efficient" value="nee" required>nee</label><br>
+            </div>
+            <div>
+                <label><input type="radio" name="compact" value="ja" required>ja</label><br>
+                <label><input type="radio" name="compact" value="nee" required>nee</label><br>
             </div>
 
 
