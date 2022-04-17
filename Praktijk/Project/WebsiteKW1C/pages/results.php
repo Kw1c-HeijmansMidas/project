@@ -40,7 +40,30 @@
     <?php
         date_default_timezone_set("Europe/Amsterdam");
         echo date("d-M-y") .  "<br>" . date("H:i") . "<br>";
-        echo $_POST["name"]
+        echo $_POST["name"];
+
+        // naam van alle vragen in een array
+        $vragen = ["ervaring","leuk","uren","teams","stress","creatief","box","deadline","leren","concentratie","efficient","compact"];
+        $points = 0;
+        // loopt via alle vragen en kijkt of het antwoord ja is
+        for ($i=0; $i<12 ;$i++)
+        {
+            if ($_POST[$vragen[$i]] == "ja")
+            {
+                $points = $points+1;
+            }
+        }
+        echo ", je hebt " . $points . " van de 12 punten. <br>";
+        if ($points >= 8)
+        {
+            echo "zo hey, je hebt wel veel punten! mischien is deze opleiding wel wat voor jouw :) <br>";
+            echo "<a href='https://www.kw1c.nl/afdeling/811/ict-academie'>inschrijven</a>";
+        }
+        else
+        {
+            echo "hmmmm, mischien is deze opleiding niet iets voor jouw :/ <br>";
+            echo "<a href='https://www.kw1c.nl/opleidingen'>andere opledingen</a>";
+        }
     ?>
 </main>
 <!--start footer-->
