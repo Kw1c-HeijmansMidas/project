@@ -38,11 +38,12 @@
     <main>
 <!-- begin form-->
         <form method="post" action="results.php">
+<!--            input veld voor naam -->
             <p>
                 <label for="name">Naam: </label>
                 <input type="text" name="name" id="name" required>
             </p>
-
+<!--             input veld voor leeftijd -->
             <p>
                 <label for="leeftijd">Leeftijd: </label>
                 <input type="number" name="leeftijd" id="leeftijd" required>
@@ -51,7 +52,7 @@
             <p>
                 Leerjaar:
             </p>
-
+<!--                input veld voor het leerjaar (je kan er meerdere aanklikken)-->
             <div>
                 <label><input type="checkbox" name="leerjaar" value="Leerjaar 1">Leerjaar 1</label><br>
                 <label><input type="checkbox" name="leerjaar" value="Leerjaar 2">Leerjaar 2</label><br>
@@ -63,7 +64,7 @@
             <p>
                 Heb je ervaring?
             </p><br>
-
+<!--                alle ja en nee vragen gebruiken een "radio" button (ja kan er maar een aanklikken) -->
             <div>
                 <label><input type="radio" name="ervaring" value="ja" required>ja</label><br>
                 <label><input type="radio" name="ervaring" value="nee" required>nee</label><br>
