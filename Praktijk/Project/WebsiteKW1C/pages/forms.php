@@ -38,11 +38,12 @@
     <main>
 <!-- begin form-->
         <form method="post" action="results.php">
+<!--            input veld voor naam -->
             <p>
                 <label for="name">Naam: </label>
                 <input type="text" name="name" id="name" required>
             </p>
-
+<!--             input veld voor leeftijd -->
             <p>
                 <label for="leeftijd">Leeftijd: </label>
                 <input type="number" name="leeftijd" id="leeftijd" required>
@@ -51,7 +52,7 @@
             <p>
                 Leerjaar:
             </p>
-
+<!--                input veld voor het leerjaar (je kan er meerdere aanklikken)-->
             <div>
                 <label><input type="checkbox" name="leerjaar" value="Leerjaar 1">Leerjaar 1</label><br>
                 <label><input type="checkbox" name="leerjaar" value="Leerjaar 2">Leerjaar 2</label><br>
@@ -61,16 +62,16 @@
             </div>
 
             <p>
-                heb je ervaring?
+                Heb je ervaring?
             </p><br>
-
+<!--                alle ja en nee vragen gebruiken een "radio" button (ja kan er maar een aanklikken) -->
             <div>
                 <label><input type="radio" name="ervaring" value="ja" required>ja</label><br>
                 <label><input type="radio" name="ervaring" value="nee" required>nee</label><br>
             </div>
 
             <p>
-                vind je het leuk om met computers om te gaan?
+                Vind je het leuk om met computers om te gaan?
             </p><br>
 
             <div>
@@ -79,7 +80,7 @@
             </div><br>
 
             <p>
-                ben je bereid meerdere uren achter de pc te zitten?
+                Ben je bereid meerdere uren achter de pc te zitten?
             </p><br>
 
             <div>
@@ -88,7 +89,7 @@
             </div><br>
 
             <p>
-                kunt u goed in teams werken?
+                Kunt u goed in teams werken?
             </p><br>
 
             <div>
@@ -97,7 +98,7 @@
             </div><br>
 
             <p>
-                ben je goed stress bestendig?
+                Ben je goed stress bestendig?
             </p><br>
 
             <div>
@@ -106,7 +107,7 @@
             </div><br>
 
             <p>
-                bent u creatief?
+                Bent u creatief?
             </p><br>
 
             <div>
@@ -115,7 +116,7 @@
             </div><br>
 
             <p>
-                kunt u goed out off the box denken?
+                Kunt u goed out off the box denken?
             </p><br>
 
             <div>
@@ -124,7 +125,7 @@
             </div><br>
 
             <p>
-                kan je je houden aan een deadline?
+                Kan je je houden aan een deadline?
             </p><br>
 
             <div>
@@ -133,7 +134,7 @@
             </div><br>
 
             <p>
-                kan je werkend leren?
+                Kan je werkend leren?
             </p><br>
 
             <div>
@@ -142,7 +143,7 @@
             </div><br>
 
             <p>
-                heb je goeie motivatie?
+                Heb je goeie motivatie?
             </p><br>
 
             <div>
@@ -151,7 +152,7 @@
             </div><br>
 
             <p>
-                ben je efficient werken?
+                Ben je efficient werken?
             </p><br>
 
             <div>
@@ -160,7 +161,7 @@
             </div><br>
 
             <p>
-                kan je compact werken?
+                Kan je compact werken?
             </p><br>
 
             <div>
