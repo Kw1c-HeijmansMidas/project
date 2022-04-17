@@ -43,3 +43,7 @@ nav ul li a
     color:white; /* kleur tekst */
 }
 
+#logo
+{
+    height: 5vh;
+}
