@@ -46,3 +46,32 @@ h3
     margin: 0.05em 0 0.25em;
     word-wrap: break-word;
 }
+
+footer
+{
+    bottom: 0;
+    min-width: 100vw;
+    height: 10vh;
+    background-color: rebeccapurple;
+}
+
+.facebook
+{
+    background-color: white;
+}
+.twitter
+{
+    background-color: white;
+}
+.instagram
+{
+    background-color: white;
+}
+.linkedin
+{
+    background-color: white;
+}
+.youtube
+{
+    background-color: white;
+}
