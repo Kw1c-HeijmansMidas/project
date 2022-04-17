@@ -166,11 +166,16 @@
             <div>
                 <label><input type="radio" name="compact" value="ja" required>ja</label><br>
                 <label><input type="radio" name="compact" value="nee" required>nee</label><br>
-            </div>
+            </div><br>
 
 
 
             <input type="submit" value="inleveren">
+            <br>
+            <br>
+            <br>
+            <br>
+
         </form>
     </main>
 <!--start footer-->

@@ -1,38 +1,43 @@
-*
+*  /* haalt margin en padding van alles weg */
 {
     margin: 0;
     padding: 0;
 }
 
+/*aanpassingen body*/
 body{
     background-color: #66b6df;
     color: white;
     min-height: 100%;
     font-family: Arial, Verdana, Tahoma, serif;
-    overflow-x: hidden;
+    overflow-x: hidden; /* haalt de horizontale scrollbar weg */
 }
 
+/*aanpassingen titel*/
 #title{
-    margin: 1.4rem;
+    margin: 1.4rem; /* veranderd de rootelement's (<html> element) font size */
     font-size: 50px;
     text-align: center;
 }
 
+/*aanpassingen line*/
 #redline{
     width: 100vw;
 }
 
+/*aanpassing header*/
 header
 {
-   position: absolute;
+    position: absolute;
     top: 60px;
 }
-
+/*aanpassingen main*/
 main
 {
     position: relative;
     top: 200px;
 }
+/*aanpassingen footer*/
 footer
 {
     position: fixed;
