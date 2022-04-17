@@ -1,9 +1,10 @@
-*
+* /* haalt margin en padding van alles weg */
 {
     margin: 0;
     padding: 0;
 }
 
+/*aanpassingen body*/
 body
 {
     background-color: #66b6df;
@@ -13,30 +14,35 @@ body
     overflow-x: hidden;
 }
 
+/*aanpassingen paragraaf*/
 p
 {
     background-color:#0085ca;
     width: 10vw;
 }
 
+/*aanpassingen bg*/
 #background
 {
     width: 100vw;
     height: 600px;
 }
 
+/*aanpassingen line*/
 #lijn
 {
     min-width: 100vw;
 
 }
 
+/*aanpassingen titel*/
 #titel {
     position: relative;
     left: 40%;
     margin: 1rem;
 }
 
+/*aanpassingen h3*/
 h3
 {
     background-color: #0085ca;
@@ -45,11 +51,7 @@ h3
     word-wrap: break-word;
 }
 
-#middenstuk
-{
-    left: 200px;
-    position: center;
-}
+/*aanpassingen aan #tekst1*/
 #tekst1
 {
     background-color: #0085ca;
@@ -59,40 +61,30 @@ h3
     padding-right: 0.0em;
     padding-bottom: 0.7px;
     padding-left: 0.0em;
-
-
 }
 
+/*aanpassingen aan #tekst*/
 #tekst
 {
     width: 50vw;
 
 }
 
+/*aanpassingen algemeen*/
 #alg
 {
     width: 40vw;
     left: 20%;
 }
 
-#download
-{
-    background-color: red;
-    color: white;
-}
-
+/*aanpassingen #contact*/
 #contact
 {
     background-color: #0085ca;
-
-}
-#vraag
-{
-    background-color: red;
-    width: 19vw;
-
+    width: 15vw;
 }
 
+/*aanpassingen footer*/
 footer
 {
     bottom: 0;

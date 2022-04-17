@@ -18,6 +18,7 @@
     <link href="../styles/forms.css" rel="stylesheet">
     <link href="../styles/menu.css" rel="stylesheet">
 </head>
+<!--start body-->
 <body>
 <!--include voor nav-->
 <nav>

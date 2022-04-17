@@ -5,6 +5,7 @@ nav li
     margin-right: 5px; /* vergroot/verkleint de margin van het menu */
     padding: 1%; /* vergroot/verkleint de wit ruimte tussen menu en rand van de pagina */
 }
+/*aanpassingen nav*/
 nav
 {
     display: block;

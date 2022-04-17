@@ -9,7 +9,7 @@ body{
     background-color: #66b6df;
     color: white;
     min-height: 100%;
-    font-family: Arial, Verdana, Tahoma, serif;
+    font-family: Arial, Verdana, Tahoma, serif; /* toevoeging font */
     overflow-x: hidden; /* haalt de horizontale scrollbar weg */
 }
 
