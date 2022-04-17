@@ -60,6 +60,7 @@ h3
     padding-bottom: 0.7px;
     padding-left: 0.0em;
 
+
 }
 
 #tekst
@@ -80,10 +81,18 @@ h3
     color: white;
 }
 
+#contact
+{
+    background-color: #0085ca;
+
+}
 #vraag
 {
     background-color: red;
+    width: 19vw;
+
 }
+
 footer
 {
     bottom: 0;

@@ -2,8 +2,8 @@
 <nav id="menu1">
     <ul>
             <li>
-                <a href="../pages/homepagekw1c.php">
-                    <img src="../images/logo.svg" id="logo">
+                <a href="../pages/homepagekw1c.php" id="logo">
+                    <img src="../images/logo.svg">
                 </a>
             </li>
         <li>

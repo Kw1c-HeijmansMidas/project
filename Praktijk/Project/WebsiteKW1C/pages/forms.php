@@ -61,7 +61,7 @@
             </div>
 
             <p>
-                heb je ervaring?
+                Heb je ervaring?
             </p><br>
 
             <div>
@@ -70,7 +70,7 @@
             </div>
 
             <p>
-                vind je het leuk om met computers om te gaan?
+                Vind je het leuk om met computers om te gaan?
             </p><br>
 
             <div>
@@ -79,7 +79,7 @@
             </div><br>
 
             <p>
-                ben je bereid meerdere uren achter de pc te zitten?
+                Ben je bereid meerdere uren achter de pc te zitten?
             </p><br>
 
             <div>
@@ -88,7 +88,7 @@
             </div><br>
 
             <p>
-                kunt u goed in teams werken?
+                Kunt u goed in teams werken?
             </p><br>
 
             <div>
@@ -97,7 +97,7 @@
             </div><br>
 
             <p>
-                ben je goed stress bestendig?
+                Ben je goed stress bestendig?
             </p><br>
 
             <div>
@@ -106,7 +106,7 @@
             </div><br>
 
             <p>
-                bent u creatief?
+                Bent u creatief?
             </p><br>
 
             <div>
@@ -115,7 +115,7 @@
             </div><br>
 
             <p>
-                kunt u goed out off the box denken?
+                Kunt u goed out off the box denken?
             </p><br>
 
             <div>
@@ -124,7 +124,7 @@
             </div><br>
 
             <p>
-                kan je je houden aan een deadline?
+                Kan je je houden aan een deadline?
             </p><br>
 
             <div>
@@ -133,7 +133,7 @@
             </div><br>
 
             <p>
-                kan je werkend leren?
+                Kan je werkend leren?
             </p><br>
 
             <div>
@@ -142,7 +142,7 @@
             </div><br>
 
             <p>
-                heb je goeie motivatie?
+                Heb je goeie motivatie?
             </p><br>
 
             <div>
@@ -151,7 +151,7 @@
             </div><br>
 
             <p>
-                ben je efficient werken?
+                Ben je efficient werken?
             </p><br>
 
             <div>
@@ -160,7 +160,7 @@
             </div><br>
 
             <p>
-                kan je compact werken?
+                Kan je compact werken?
             </p><br>
 
             <div>
