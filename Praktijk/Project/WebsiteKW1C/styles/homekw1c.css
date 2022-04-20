@@ -45,11 +45,6 @@ h3
     word-wrap: break-word;
 }
 
-#middenstuk
-{
-    left: 200px;
-    position: center;
-}
 #tekst1
 {
     background-color: #0085ca;
@@ -74,11 +69,15 @@ h3
     width: 40vw;
     left: 20%;
 }
-
+#informatie
+{
+    background-color: #0085ca;
+    width: 15vw;
+}
 #contact
 {
     background-color: #0085ca;
-
+    width: 15vw;
 }
 
 footer
@@ -88,5 +87,3 @@ footer
     height: 10vh;
     background-color: #0085ca;
 }
-
-
