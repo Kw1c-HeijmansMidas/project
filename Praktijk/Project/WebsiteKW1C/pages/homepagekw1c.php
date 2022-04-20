@@ -40,7 +40,7 @@
                 <p>
                     Download de brochure van deze afdeling:
                 </p>
-                    <a href="https://www.kw1c.nl/media/afdeling/folders/811%20ict%20folderlijn%20aangepast.pdf" title="Download de brochure" target="_blank">
+                    <a href="https://www.kw1c.nl/media/afdeling/folders/811%20ict%20folderlijn%20aangepast.pdf" title="Download de brochure" class="aDown bgRood" target="_blank">
                         <!--Zet de tekst schuin-->
                         <i id="download"><br></i>&nbsp;Brochure in PDF</a>
         </div>
@@ -51,7 +51,13 @@
             <!--Link naar email adres-->
             <a href="mailto:info@kw1c.nl" title="Stuur een e-mail naar het Studenten Succes Centrum"><i></i>&nbsp;&nbsp;info@kw1c.nl</a>
         </div>
-
+        <div id="vraag">
+            <h3>Heb je vragen? Wij geven jou advies:</h3>
+            <a href="/gesprek-met-studieadviseur" title="Afspraak maken voor een gesprek met een studieadviseur">
+                Gesprek met een studie­adviseur</a>
+            <a href="/stel-je-vraag" title="Stel je vraag met een online formulier">Stel je
+                vraag online</a>
+        </div>
     </aside>
     <?php
     include "../includes/footer.php"

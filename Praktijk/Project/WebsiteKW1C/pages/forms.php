@@ -18,6 +18,7 @@
     <link href="../styles/forms.css" rel="stylesheet">
     <link href="../styles/menu.css" rel="stylesheet">
 </head>
+<!--start body-->
 <body>
 <!--include voor nav-->
 <nav>
@@ -167,11 +168,16 @@
             <div>
                 <label><input type="radio" name="compact" value="ja" required>ja</label><br>
                 <label><input type="radio" name="compact" value="nee" required>nee</label><br>
-            </div>
+            </div><br>
 
 
 
             <input type="submit" value="inleveren">
+            <br>
+            <br>
+            <br>
+            <br>
+
         </form>
         <br>
     </main>

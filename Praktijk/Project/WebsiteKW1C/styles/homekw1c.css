@@ -45,6 +45,11 @@ h3
     word-wrap: break-word;
 }
 
+#middenstuk
+{
+    left: 200px;
+    position: center;
+}
 #tekst1
 {
     background-color: #0085ca;
@@ -79,15 +84,7 @@ h3
 #contact
 {
     background-color: #0085ca;
-    width: 15vw;
 
-}
-
-#informatie
-{
-    background-color: #0085ca;
-    width: 15vw;
-    right: 0;
 }
 #vraag
 {

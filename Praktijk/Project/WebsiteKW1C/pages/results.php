@@ -7,6 +7,7 @@
 ?>
 <!DOCTYPE html>
 <html lang="nl">
+<!--start head-->
 <head>
     <title>
         <?php
